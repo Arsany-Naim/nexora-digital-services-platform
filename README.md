@@ -3,9 +3,9 @@
 A full-stack e-commerce platform built with an **ASP.NET Core 8 Web API** backend (Clean / Onion Architecture) and an **Angular 11** single-page front-end. It supports product browsing with filtering, sorting and pagination, JWT-based authentication, a Redis-backed shopping basket, order management, and Stripe payments.
 
 ```
-Talabat - ASP.NET Core API/
-├── E-Commerce_APIs-master/     # Backend  (ASP.NET Core 8 Web API)
-└── E-Commerce_Front-end-main/  # Frontend (Angular 11 SPA)
+Cartly - ASP.NET Core API/
+├── backend-dotnet/     # Backend  (ASP.NET Core 8 Web API)
+└── frontend-angular/  # Frontend (Angular 11 SPA)
 ```
 
 ---
