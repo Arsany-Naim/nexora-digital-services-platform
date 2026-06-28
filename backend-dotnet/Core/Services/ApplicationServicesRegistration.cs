@@ -23,6 +23,7 @@ namespace Services
             services.AddAutoMapper(M => M.AddProfile(new OrderProfile()));
             services.AddAutoMapper(M => M.AddProfile(new AuthProfile()));
             return services;
+            
         }
     }
 }
