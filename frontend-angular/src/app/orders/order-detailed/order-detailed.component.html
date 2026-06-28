@@ -1,0 +1,30 @@
+<div class="container mt-5" *ngIf="!loading">
+  <div *ngIf="order; else noOrder">
+    <div class="row">
+      <div class="col-8">
+        <app-basket-summary 
+          [items]="order.items" 
+          [isBasket]="false" 
+          [isOrder]="true">
+        </app-basket-summary>
+      </div>
+      <div class="col-4">
+        <app-order-totals 
+          [shippingPrice]="order.deliveryCost" 
+          [subtotal]="order.subtotal" 
+          [total]="order.total">
+        </app-order-totals>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noOrder>
+    <div class="alert alert-warning">
+      Order not found or invalid id.
+    </div>
+  </ng-template>
+</div>
+
+<div *ngIf="loading" class="text-center mt-5">
+  Loading order details...
+</div>
