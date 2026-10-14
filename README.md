@@ -1,6 +1,6 @@
 # Nexora — Digital Services Platform
 
-A full-stack e-commerce platform built with an **ASP.NET Core 8 Web API** backend (Clean / Onion Architecture) and an **Angular 11** single-page front-end. It supports product browsing with filtering, sorting and pagination, JWT-based authentication, a Redis-backed shopping basket, order management, and Stripe payments.
+A full-stack platform built with an **ASP.NET Core 8 Web API** backend (Clean / Onion Architecture) and an **Angular 11** single-page front-end. It supports product browsing with filtering, sorting and pagination, JWT-based authentication, a Redis-backed shopping basket, order management, and Stripe payments.
 
 ```
 Cartly - ASP.NET Core API/
